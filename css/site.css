@@ -1,0 +1,197 @@
+body{
+	/* Transition */
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.header{
+	margin-top: 10%;
+	text-align: center;
+}
+
+.header i{
+	/*padding: 0 5px 0 5px;*/
+	padding: 0 0.5% 0 0.5%;
+}
+
+.im{
+	/*padding-right: 15px;*/
+	padding-right: 1.75%;
+}
+
+.exp-list{
+	/*margin-top: -2%;*/
+	margin: -2% 0 0 3%;
+	columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.exp-list li{
+	display: inline-block;
+	/*float: left;*/
+}
+
+.exp-list li:before {
+	content:'\ffed'; margin-right:0.5em;
+}
+
+.proj-list{
+	columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    /*display:list-item;*/
+}
+
+.proj-list li{
+	display: inline-block;
+	/*float: left;*/
+}
+
+.proj-list li:before {
+	content:'\ffed'; margin-right:0.5em;
+}
+
+
+/* Light mode */
+a{
+	color: black;
+
+	/* Transition */
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+a:link{
+	color: black;
+
+	/* Transition */
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+a:visited{
+	color: black;
+
+	/* Transition */
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+a:hover{
+	color: black;
+
+	/* Transition */
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+a:active{
+	color: black;
+
+	/* Transition */
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+#dark-toggle {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+}
+
+#dark-toggle i{
+	cursor: pointer;
+}
+
+/* Dark mode */
+.dark-mode{
+	background-color: #3A3F40;
+	color: white;
+
+	/* Transition */
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.dark-mode a{
+	color: white;
+
+	/* Transition */
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.dark-mode a:link{
+	color: white;
+
+	/* Transition */
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.dark-mode a:visited{
+	color: white;
+
+	/* Transition */
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.dark-mode a:hover{
+	color: white;
+
+	/* Transition */
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.dark-mode a:active{
+	color: white;
+
+	/* Transition */
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.dark-mode #dark-toggle {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    color: white;
+
+    /* Transition */
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
